@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#game-container {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    border: 5px solid yellow;
+}
+
+#pacman {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#banana {
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.ghost {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    border-radius: 50%;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+}
